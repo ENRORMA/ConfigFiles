@@ -5,4 +5,4 @@ alias ls="ls -la --human-readable --color=auto"
 alias grep="grep --color=auto"
 
 #ssh to server
-alias server="ssh server@$server"
+alias server="ssh root@$server"
