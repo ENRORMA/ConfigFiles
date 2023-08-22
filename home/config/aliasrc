@@ -1,5 +1,8 @@
 #better ls
-alias ls="ls -la --human-readable --color=auto"
+#alias ls="ls -la --human-readable --color=auto"
+
+#even better ls
+alias ls="exa -la"
 
 #better grep
 alias grep="grep --color=auto"
