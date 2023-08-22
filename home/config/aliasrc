@@ -3,7 +3,7 @@
 
 #even better ls
 #you have to install exa with "sudo apt install exa" or whatever your package manager is
-alias ls="exa -la"
+alias ls="exa -laG --time-style long-iso"
 
 #better grep
 alias grep="grep --color=auto"
