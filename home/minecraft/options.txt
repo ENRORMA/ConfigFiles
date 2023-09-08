@@ -38,7 +38,7 @@ biomeBlendRadius:0
 renderClouds:false
 resourcePacks:["vanilla","Fabric Mods","file/H 1.18.2"]
 incompatibleResourcePacks:[]
-lastServer:217.87.254.43:50001
+lastServer:127.0.0.0
 lang:en_us
 soundDevice:""
 chatVisibility:0
