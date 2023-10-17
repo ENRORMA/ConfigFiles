@@ -106,4 +106,7 @@ export PATH=$PATH:/home/enrorma/.local/bin
 export server="insert your server ip here"
 export MAKEFLAGS="-j12"
 
+none="$(tput sgr0)"
+trap 'echo -ne "${none}"' DEBUG
+
 . $HOME/.config/aliasrc
