@@ -105,8 +105,11 @@ neofetch
 export PATH=$PATH:/home/enrorma/.local/bin
 export server="insert your server ip here"
 export MAKEFLAGS="-j12"
+eval "$(zoxide init bash)"
 
 none="$(tput sgr0)"
 trap 'echo -ne "${none}"' DEBUG
 
 . $HOME/.config/aliasrc
+
+eval "$(atuin init bash)"
