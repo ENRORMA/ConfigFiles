@@ -10,6 +10,13 @@ alias grep="grep --color=auto"
 #ssh to server
 alias server="ssh server@$server"
 
+#rebind cd to zxide
+alias cd="z"
+alias cdi="zi"
+
+#disable rm training wheels
+alias rm="rm -rfv"
+
 #make a directory and cd into it
 function mkcd(){
 	if [ "$1" == "" ]; then
