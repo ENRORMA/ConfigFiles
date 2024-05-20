@@ -111,5 +111,3 @@ none="$(tput sgr0)"
 trap 'echo -ne "${none}"' DEBUG
 
 . $HOME/.config/aliasrc
-
-eval "$(atuin init bash)"
